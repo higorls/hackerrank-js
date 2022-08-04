@@ -1,10 +1,11 @@
-function performOperation(secondInteger, secondDecimal, secondString) {
-    const firstInteger = 4;
-    const firstDecimal = 4.0;
-    const firstString = 'HackerRank ';
-    
-    console.log(firstInteger + parseInt(secondInteger))
-    console.log(firstDecimal + parseFloat(secondDecimal))
-    console.log(`${firstString}${secondString}`)
+/** Arithmetic Operators */
+function getArea(length, width) {
+    let area;
+    area = length * width
+    return area;
 }
-
+function getPerimeter(length, width) {
+    let perimeter;
+    perimeter = 2 * ( length + width )
+    return perimeter;
+}
